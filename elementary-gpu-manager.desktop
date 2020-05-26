@@ -1,12 +1,10 @@
 [Desktop Entry]
 Type=Application
 Name=GPU Manager
-X-GNOME-FullName=GPU Manager
 Comment=Utility for managing graphics and power profiles
-Icon=/home/$USER/.ElementaryGPUManager/intel-nvidia-icon.png
+Icon=/opt/ElementaryGPUManager/intel-nvidia-icon.png
+Exec=/opt/ElementaryGPUManager/gpu-manager.py
+Path=/opt/ElementaryGPUManager
 NoDisplay=false
-Exec=/home/$USER/.ElementaryGPUManager/gpu-manager.py
-Path=/home/$USER/.ElementaryGPUManager
 Terminal=false
-X-GNOME-UsesNotifications=false
 Categories=System;

@@ -1,11 +1,11 @@
 #!/bin/bash
 
 # Copy files to the user's directory
-mkdir /home/$USER/.ElementaryGPUManager
-cp *.py /home/$USER/.ElementaryGPUManager/
-cp intel-nvidia-icon.png /home/$USER/.ElementaryGPUManager/
+sudo mkdir /opt/ElementaryGPUManager
+sudo cp *.py /opt/ElementaryGPUManager/
+sudo cp intel-nvidia-icon.png /opt/ElementaryGPUManager/
 cp elementary-gpu-manager.desktop /home/$USER/.local/share/applications/
-chmod +x /home/$USER/.ElementaryGPUManager/*.py
+sudo chmod +x /opt/ElementaryGPUManager/*.py
 chmod +x /home/$USER/.local/share/applications/elementary-gpu-manager.desktop
 
 # Install mesa-utils to use 'glxinfo' and 'glxgears'
