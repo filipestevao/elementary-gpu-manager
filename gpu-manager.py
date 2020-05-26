@@ -42,7 +42,7 @@ class MyApp(Gtk.Window):
        
         while True:
             if not p1.is_alive():
-                subprocess.run(['pkill', 'loading_win.py'])
+                subprocess.run(['pkill', 'loading-win.py'])
                 break
 
         self.restart_question()
@@ -51,7 +51,7 @@ class MyApp(Gtk.Window):
         subprocess.run(['system76-power', 'graphics', self.switchGPU])
 
     def call_loading(self):
-        subprocess.run(['./loading_win.py'])
+        subprocess.run(['./loading-win.py'])
         
     def radioButtonPower(self):
         RBperformance = Gtk.RadioButton.new_with_label_from_widget(None, "High Performance")
