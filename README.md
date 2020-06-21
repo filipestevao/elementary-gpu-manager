@@ -17,7 +17,7 @@ It is intended to install [system76-power](https://support.system76.com/articles
 1. Run `install.sh`:
 
 ```
-sh ./install.sh
+./install.sh
 ```
 This should install `system76-power` and the graphical interface.
 
